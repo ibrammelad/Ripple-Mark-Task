@@ -1,0 +1,31 @@
+div {
+    border: 3px solid #f1f1f1;
+    margin: 50px 200px;
+    padding: 12px 20px;
+
+
+}
+
+/* Full-width inputs */
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
